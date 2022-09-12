@@ -16,6 +16,9 @@
 
     <!-- css external -->
     <link rel="stylesheet" href="styling/style.css">
+
+    <!-- fontawesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="navigationbar">
@@ -50,7 +53,7 @@
                 </div>
 
                 <div class="col2img">
-                    <img src="/img/screen-mockups.svg" alt="screen-mockups">
+                    <img src="/img/screen-mockups.svg" alt="screen-mockups" style="max-width: 100%;">
                 </div>
             </div>
         </div>
@@ -81,11 +84,12 @@
     </section>
 
 
-    <section class="points">
+
+    <div class="pointsimg"></div>
+    <section class="points" style="padding-left: 5em; padding-right: 10em;">
         <div class="container-fluid">
-            <div class="container">
-                <div class="d-flex">
-                    <div class="point1">
+                <div class="d-flex flex-md-row justify-content-between">
+                    <div class="point1 align-self-center">
                         <h1>GROW TOGETHER</h1>
                         <p>Generate meaningful discussions with your audience and build a
                             strong, loyal community. Think of the insightful conversation you
@@ -97,6 +101,88 @@
                         <img src="/img/illustration-grow-together.svg" alt="">
                     </div>
                 </div>
+        </div>
+    </section>
+    <div class="pointsimg2"></div>
+
+
+    <section class="secondpoints" style="padding-left: 5em;padding-right: 10em;">
+        <div class="container-fluid">
+                <div class="d-flex flex-md-row justify-content-between">
+                    <div class="secondpoint2">
+                        <img src="/img/illustration-flowing-conversation.svg" alt="">
+                    </div>
+
+                    <div class="secondpoint1 align-self-center">
+                        <h1>FLOWING CONVERSATIONS</h1>
+                        <p>You wouldn't paginate a conversation in real life, so why do it online?
+                            Our threads have just-in-time loading for a more natural flows.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+    <div class="thirdpointsimg"></div>
+    <section class="thirdpoints" style="padding-left: 5em;padding-right: 10em;">
+        <div class="container-fluid">
+            
+                <div class="d-flex flex-md-row justify-content-between">                    
+                    <div class="thirdpoint1 align-self-center">
+                        <h1>YOUR USERS</h1>
+                        <p>It takes no time at all to integrate Huddle with your app's
+                            authentication solution. This means, Once signed in to your app, your
+                            users can start chatting immediately.
+                        </p>
+                    </div>
+
+                    <div class="thirdpoint2">
+                        <img src="/img/illustration-your-users.svg" alt="">
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+    <div class="thirdpointsimg2"></div>
+
+
+    <section id="cta">
+        <div class="container text-center">
+            <h1>Ready to Build Your Community?</h1>
+
+            <button class="btn">Get Started For Free</button>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div id="footerimg"></div>
+        <div class="d-flex flex-row justify-content-between" id="footers">
+            <div class="text-white">
+                <div id="img" class="mb-2"><img src="/img/logo2.svg" alt=""></div>
+
+                <p id="fpara" style="margin-top: 2em; width: 30em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae a quia sunt iste tempore ex, pariatur corporis? Deleniti, eaque beatae!</p>
+                
+                <p style="margin-top: 2em;"><span style="margin-right: 1em;"><i class="fa-solid fa-phone"></i></span> Phone: +1-543-123-4567</p>
+                <p><span style="margin-right: 1em;"><i class="fa-solid fa-envelope"></i></span> Email: example@huddle.com</p>
+
+                <p style="margin-top: 2em; font-size: 3em;"><span><i class="fa-brands fa-square-facebook"></i></span> <span class="mx-3"><i class="fa-brands fa-instagram"></i></span> <span><i class="fa-brands fa-square-twitter"></i></span></p>
+            </div>
+
+            <div class="text-white">
+                <h2>NEWSLETTER</h2>
+                <p style="margin-top: 2em; width: 30em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sequi. Illum natus quibusdam voluptates quia, ullam at necessitatibus alias assumenda.</p>
+
+                <form class="row g-2" style="margin-top: 2em;">
+                    <div class="col-auto">
+                      <label for="inputPassword2" class="visually-hidden">Password</label>
+                      <input type="password" class="form-control p-3" id="inputPassword2" placeholder="Input your email address">
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary mb-3 p-3">Subscribe</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
