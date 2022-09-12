@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+#hlogo{
+    max-width: 15em;
+}
+
 .navigationbar{
     margin-top: 2.5em;
     margin-bottom: 15em;
@@ -239,9 +243,13 @@
 
 
 @media(max-width: 992px){
+    #hlogo{
+        max-width: 6em;
+    }
+    
     .navigationbar{
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     .navigationbar #navbtn{
