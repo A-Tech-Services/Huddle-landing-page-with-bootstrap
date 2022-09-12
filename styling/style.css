@@ -63,9 +63,11 @@
 }
 
 #counts{
-    width: 50em;
+    max-width: 50em;
     margin: auto;
 }
+
+
 
 #counts h1{
     font-size: 50px;
@@ -89,12 +91,11 @@
 
 .points{
     background-color: hsl(207, 100%, 98%);
-    background-size: 100%;
     padding: 5em;
 }
 
 .pointsimg2{
-    width: 100%;
+    max-width: 100%;
     height: 23vh;
     background-image: url(/img/bg-section-bottom-desktop-1.svg);
     background-repeat: no-repeat;
@@ -125,7 +126,6 @@
 
 .secondpoints{
     margin-top: 5em;
-    background-size: 100%;
     padding: 5em;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .secondpoint2 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -162,7 +162,6 @@
 
 .thirdpoints{
     background-color: hsl(207, 100%, 98%);
-    background-size: 100%;
     padding: 5em;
 }
 
@@ -192,7 +191,7 @@
 }
 
 .thirdpoint2 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -217,6 +216,7 @@
     border-radius: 3em;
     width: 25em;
     color: white;
+    border: none;
 }
 
 #cta button:hover{
@@ -235,4 +235,160 @@
     margin-bottom: -5em;
     background-color: hsl(192, 100%, 9%);
     padding: 10em;
+}
+
+
+@media(max-width: 992px){
+    .navigationbar{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .navigationbar #navbtn{
+        padding: 0.3em;
+        max-width: 7em;
+    }
+    
+    .col1 h1{
+        font-size: 30px;
+    }
+    
+    .col1 p{
+        font-size: 15px;
+    }
+    
+    .col1 #headtextsbtn{
+        font-size: 15px;
+        padding: 1em;
+        border-radius: 3em;
+        max-width: 100%;
+    }
+    
+    
+    #counts h1{
+        font-size: 30px;
+    }
+
+    #count2{
+        margin-top: 3em;
+    }
+    
+
+    .pointsimg{
+        margin-bottom: -2em;
+    }
+    
+    .points{
+        background-color: hsl(207, 100%, 98%);
+        padding: 3em;
+    }
+    
+    .pointsimg2{
+        margin-top: -2em;
+    }
+    
+    .point1 h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    .point1 p{
+        max-width: 20em;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .point2{
+        max-width: 20em;
+        margin: auto;
+    }
+    
+    
+    .secondpoints{
+        padding: 3em;
+    }
+    
+    .secondpoint1 h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    .secondpoint1 p{
+        max-width: 20em;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .secondpoint2{
+        max-width: 20em;
+        margin: auto;
+    }
+    
+    .thirdpointsimg{
+        margin-bottom: -2em;
+    }
+
+    .thirdpoints{
+        background-color: hsl(207, 100%, 98%);
+        padding: 3em;
+    }
+    
+    .thirdpointsimg2{
+        margin-top: -2em;
+    }
+    
+    .thirdpoint1 h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    .thirdpoint1 p{
+        max-width: 20em;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .thirdpoint2{
+        max-width: 20em;
+        margin: auto;
+    }
+    
+    
+    #cta{
+        margin-top: 10em;
+        margin-bottom: 10em;
+    }
+    
+    #cta h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #cta button{
+        font-size: 15px;
+        padding: 1.5em;
+        max-width: 100%;
+    }
+    
+    
+    #footerimg{
+        margin-bottom: -2em;
+    }
+    
+    #footers{
+        margin-bottom: -2em;
+        background-color: hsl(192, 100%, 9%);
+        padding: 2em;
+    }
+
+    #img{
+        margin-top: 3em;
+    }
+
+    #fpara{
+        max-width: 20em;
+    }
 }
